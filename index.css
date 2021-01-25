@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+}
+
+a{
+text-decoration: none;
+}
+
+/*HEADER*/
+h1{
+    float: left;
+    padding: 1.23rem;
+}
+
+header{
+background-color: #333;
+overflow: hidden;
+padding:1.23rem;
+}
+
+header a {
+    color: white;
+}
+
+.active{
+    background-color: #444;
+    padding: 3rem;
+}
+
+nav{
+    float: right;
+    margin-top: 1.8rem;
+}
+
+nav li{
+    display: inline;
+    padding:1.23rem;
+}
+
+nav ul li a:hover{
+background-color: #444;
+padding: 3rem;
+}
